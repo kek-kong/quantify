@@ -36,10 +36,7 @@ public class QuantifyPlugin extends Plugin
 	@Inject
 	private QuantifyConfig config;
 
-    @Inject
     private QuantifyPanel panel;
-
-    @Inject
     private NavigationButton navButton;
 
     // List of itemIDs we want to lookup quantities for
